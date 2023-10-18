@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wave {
+  animation-name: wave-animation; 
+  animation-duration: 2.5s;       
+  animation-iteration-count: infinite;  
+  transform-origin: 70% 70%;   
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) } 
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) } 
+  100% { transform: rotate( 0.0deg) }
+}
+
+.google-btn {
+  @apply border-b-2 border-gray-600 text-white bg-[#4285F4] hover:bg-[#4285F4]/90 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2 transform focus:scale-95 
+}
+
+.main {
+  @apply p-8 max-h-screen
+}
+
+  .dash-heading {
+    @apply mb-5 font-semibold text-gray-700 dark:text-slate-200
+  }
+
+  .dash-stats-container {
+    @apply flex place-content-between mb-6 p-4 bg-white dark:bg-slate-700 dark:shadow-gray-800 rounded-md shadow-md
+  }
+
+  .dash-stats-item {
+    @apply flex flex-col items-center justify-center text-gray-700 dark:text-slate-200
+  }
+
+  .coding-fact-box {
+    @apply p-3 bg-blue-100 rounded-md shadow-sm mb-8 pl-5 pr-5 dark:bg-slate-300 dark:shadow-gray-800
+  }
+
+  .code-card-avatar {
+    @apply w-16 rounded-full p-2 bg-gray-100 dark:bg-gray-200
+  }
+
+  .card-description {
+    @apply my-0 py-1 text-xs text-gray-400 dark:text-slate-400
+  }
+
+  .python-card {
+    @apply flex flex-col gap-2 items-center text-gray-700 bg-white dark:bg-slate-700 dark:shadow-gray-800 rounded-md shadow-md py-5 pl-3 pr-3 w-1/2 hover:bg-blue-100 transition duration-300 ease-in-out hover:scale-105;
+}
+
+  .js-card {
+    @apply flex flex-col gap-2 items-center text-gray-700 bg-white dark:bg-slate-700 dark:shadow-gray-800 rounded-md shadow-md py-5 pl-3 pr-3 w-1/2 hover:bg-yellow-100 transition duration-300 ease-in-out hover:scale-105
+  }
+
+  .java-card {
+    @apply flex flex-col gap-2 items-center text-gray-700 bg-white dark:bg-slate-700 dark:shadow-gray-800 rounded-md shadow-md py-5 pl-3 pr-3 w-1/2
+  }
+
+  .c-card {
+    @apply flex flex-col gap-2 items-center text-gray-700 bg-white dark:bg-slate-700 dark:shadow-gray-800 rounded-md shadow-md py-5 pl-3 pr-3 w-1/2
+  }
+
+  .difficulty-select {
+    @apply w-screen h-1/3 bg-slate-50 dark:bg-slate-800 fixed z-[1000] left-0 bottom-0 border-t-4 border-gray-300 rounded-t-lg dark:border-slate-700
+  }
+
+  .difficulty-btn {
+    @apply min-w-full py-4 rounded-md font-semibold shadow-md bg-white dark:bg-slate-300 dark:shadow-gray-800
+  }
+
+  .nav-btn {
+    @apply hover:scale-110 transition duration-300 ease-in-out opacity-70
+  }
+
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9; 
+}
+
+.gold-card {
+  @apply hover:bg-amber-100 transition duration-300 ease-in-out hover:scale-105 dark:text-slate-200 dark:hover:bg-slate-700
+}
+
+.silver-card {
+  @apply hover:bg-slate-100 transition duration-300 ease-in-out hover:scale-105 dark:text-slate-200 dark:hover:bg-slate-700
+}
+
+.bronze-card {
+  @apply hover:bg-orange-100 transition duration-300 ease-in-out hover:scale-105 dark:text-slate-200 dark:hover:bg-slate-700
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 52px;
+  height: 26px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #e2e8f0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #334155;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius:34px;
+}
+
+.slider.round:before {
+border-radius:50%;
+}
+
+.table td, th {
+  border: none;
+}
+
