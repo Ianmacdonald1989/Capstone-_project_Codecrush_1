@@ -77,3 +77,20 @@ Access the application in your web browser at http://localhost:3000.
 Now you have CodeCrush up and running locally! Enjoy improving your coding skills and challenging yourself daily.
 
 ## Screenshots
+<img width="1234" alt="Screenshot 2023-10-18 at 12 09 42" src="https://github.com/Ianmacdonald1989/Capstone-_project_Codecrush_1/assets/127326567/87cc7f07-3a4b-4b0b-bf24-3d4ea7e34217">
+
+<img width="1424" alt="Screenshot 2023-10-18 at 12 10 01" src="https://github.com/Ianmacdonald1989/Capstone-_project_Codecrush_1/assets/127326567/a5bd5436-d1ee-4bed-aa93-9e0257cef42d">
+
+<img width="1413" alt="Screenshot 2023-10-18 at 12 10 13" src="https://github.com/Ianmacdonald1989/Capstone-_project_Codecrush_1/assets/127326567/766c3155-b7db-4db1-a144-d9e86b477959">
+
+<img width="1410" alt="Screenshot 2023-10-18 at 12 10 33" src="https://github.com/Ianmacdonald1989/Capstone-_project_Codecrush_1/assets/127326567/429e425b-2542-4805-b5b0-ce8c75960d5c">
+
+<img width="1423" alt="Screenshot 2023-10-18 at 12 10 46" src="https://github.com/Ianmacdonald1989/Capstone-_project_Codecrush_1/assets/127326567/7b6e271d-941f-44e5-8b9f-302026671c1f">
+
+<img width="1424" alt="Screenshot 2023-10-18 at 12 11 09" src="https://github.com/Ianmacdonald1989/Capstone-_project_Codecrush_1/assets/127326567/95ab10d8-2885-4c0b-a915-a363aa33c2eb">
+
+<img width="1407" alt="Screenshot 2023-10-18 at 12 11 32" src="https://github.com/Ianmacdonald1989/Capstone-_project_Codecrush_1/assets/127326567/947f30b7-246f-4981-a173-0fea4b15be8f">
+
+
+
+
